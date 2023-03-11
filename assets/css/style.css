@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    overflow: hidden;
+}
+
+.fundo {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url('/assets/img/teste.jpg');
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.menu-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;  
+}
+
+.menu-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.menu-link a:hover {
+    color:  #2b1a6a;
+    transition: 0.3s all;
+}
+
+.logo i {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid #2b1a6a;
+    color: #2b1a6a;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-2 {
+    background-image: linear-gradient(45deg, rgb(127, 79, 190), rgb(79, 42, 165));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-2 {
+    background-image: linear-gradient(45deg, rgb(127, 79, 190), rgb(79, 42, 165));
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+#resultado{
+    width: 210px;
+    background-color: white;
+    height: 35px;
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+.musica {
+    display: flex;
+    margin-top: -580px;
+    
+    justify-content: space-between ;
+    margin-left: 1200px;
+    align-items: c;
+}
+
+@media screen and (max-width:600px){
+    .menu-link {
+        display: none;
+    }
+   
+}
