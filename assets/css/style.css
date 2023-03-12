@@ -101,11 +101,11 @@ header {
 }
 
 #resultado{
-    width: 207px;
+    width: 210px;
     background-color: white;
     height: 30px;
     margin: 5px;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     text-align: right;
     padding: 5px;
