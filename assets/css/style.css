@@ -9,22 +9,20 @@
     list-style: none;
 }
 
-body{
+body { /* corpo */
     overflow: hidden;
 }
 
-.fundo {
-background: rgb(75,108,183);
-background: linear-gradient(90deg, rgba(75,108,183,1) 22%, rgba(24,40,72,1) 83%);
-
+.fundo { /* o nosso backgroundzinho */
+    background: linear-gradient(90deg, rgba(75,108,183,1) 22%, rgba(24,40,72,1) 83%);
     background-size: cover;
     background-position: center;
+
     width: 100%;
     height: 100vh;
-   
 }
 
-header {
+header { /* menu */
     display: flex;
     justify-content: space-around;
     max-width: 100%;
@@ -40,17 +38,17 @@ header {
     cursor: pointer;  
 }
 
-.menu-link a{
+.menu-link a {
     color: #fff;
     font-size: 12px;
 }
 
 .menu-link a:hover {
-    color:  #2b1a6a;
+    color:  #041333;
     transition: 0.3s all;
 }
 
-.logo i {
+.logo i { /* logo */
     height: 40px;
     width: 40px;
     background: transparent;
@@ -64,18 +62,52 @@ header {
     cursor: pointer;
 }
 
+.imagem {
+    display: flex;
+    justify-content: left;
+   padding-left: 45px;
+}
+.tenso {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 4px 6px 16px #000000;
+}
 
+.container-text{
+    text-align:start; 
+    top: 150%;
+    padding: 150px 0 0 130px;
+}
 
-.fundo-2 {
-    background: rgb(75,108,183);
-    background: linear-gradient(90deg, rgba(75,108,183,1) 22%, rgba(24,40,72,1) 83%);
+.text h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.text h1{
+    color: #fff;
+}
+
+.text span{
+    color: #1e3d61; 
+}
+
+.text p{
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.fundo-2 { /* itens do calculadora */
     height: 100vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.calculadora{
+.calculadora { /* corpo da caculadora */
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
     top: 50%;
@@ -85,7 +117,7 @@ header {
     padding: 15px;
 }
 
-.botao{
+.botao { /* botoes da calculadora */
     width: 50px;
     height: 50px;
     font-size: 25px;
@@ -96,7 +128,7 @@ header {
     color: white;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: black;
 }
 
@@ -111,21 +143,22 @@ header {
     padding: 5px;
 }
 
-.musica {
+.musica { /* ajustes da nossa playlist */
     display: flex;
     margin-top: -580px;
-    
-    justify-content: space-between ;
-    margin-left: 1200px;
-    align-items: c;
+    top: 50%;
+    left: 50%;
+    justify-content: center ;
+    background: transparent;
+    align-items: center;
 }
 
-footer {
+footer { /* rodapé */
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #0e172c;
+    background: transparent;
     height: auto;
     width: 100vw;
     font-family: "Open Sans";
@@ -140,7 +173,7 @@ footer {
     text-align: center;
 }
 
-.socials {
+.socials { /* icones das redes sociais */
     list-style: none;
     display: flex;
     align-items: center;
@@ -163,8 +196,8 @@ footer {
     color: rgb(60, 84, 151);
 }
 
-.footer-final {
-    background: #080d1a;
+.footer-final { /* segundo rodapé */
+    background: #171e3144;
     width: 100vw;
     padding: 8px 0;
     text-align: center;
@@ -180,9 +213,11 @@ footer {
     font-weight: 200;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:200px){ /* resposividade do menu */
     .menu-link {
         display: none;
     }
    
 }
+
+
