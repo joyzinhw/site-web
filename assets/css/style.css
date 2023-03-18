@@ -170,7 +170,7 @@ header { /* menu */
     padding: 5px;
 }
 
-.musica { /* ajustes da nossa playlist */
+.musica { /*laylist */
     display: flex;
     margin-top: -580px;
     top: 50%;
@@ -180,7 +180,7 @@ header { /* menu */
     align-items: center;
 }
 
-footer { /* rodapé */
+footer { /* priemro rodapé */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -246,5 +246,3 @@ footer { /* rodapé */
     }
    
 }
-
-
